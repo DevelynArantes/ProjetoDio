@@ -1,0 +1,103 @@
+:root{
+    --azul: #4257b4;
+    --preta: #141414;
+
+
+    
+}
+
+
+body{
+    background: var(--preta);
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(211, 189, 192);
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header .container{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 25px;
+}
+
+header .logo{
+    margin: 5px;
+    color: var(--azul);
+    font-family: 'Arial Black';
+    font-size: 40px;
+
+}
+
+header nav a{
+    text-decoration: none;
+    color: #aaa;
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    color: #fff
+}
+
+.anime-principal{
+    font-size: 18px;
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url(Img/sailor\ moon.jpg);
+    height: 600px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+
+}
+
+
+.anime-principal .descricao{
+    margin: 70px;
+    margin-left: 10px;
+}
+
+.titulo{
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.botao{
+    border: none;
+    color: white;
+    background-color: rgba(0,0,0,.50);
+    padding: 15px 30px;
+    margin-right: 15px;
+
+    cursor: pointer;
+    
+}
+
+.botao:hover{
+    background-color: bisque;
+    color:black;
+}
+
+.botao i{
+    margin-right: 5px;
+}
+
+.anime-principal .container{
+    width: 60%;
+}
+
+.box-anime{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
